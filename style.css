@@ -1,0 +1,167 @@
+body {
+  margin: 0px;
+  padding: 84px 0 0 0;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  color: #fff;
+  background-color: #007765;
+  height: 84px;
+  width: 100%;
+}
+
+header img {
+  margin-top: 20px;
+}
+
+.content {
+  width: 1219px;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: #333;
+  height: 136px;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  padding-top: 40px;
+}
+
+footer p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+nav {
+  float: right;
+  margin-top: 30px;
+  font-size: 24px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+  font-size: 72px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 64px;
+  color: #007765;
+}
+
+p {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 37.5px;
+}
+
+.jumbotron {
+  height: 293px;
+  padding-top: 110px;
+  background: url("images/pipernet.png") no-repeat center top / cover;
+  color: #fff;
+}
+
+.problem {
+  height: 669px;
+  padding-top: 50px;
+}
+
+.hero {
+  height: 403px;
+  padding-top: 80px;
+  padding-left: 250px;
+  background-image: url("images/hero.png");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.hero p {
+  width: 893px;
+  font-size: 48px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 56px;
+  text-align: center;
+  color: #fff;
+}
+
+.ppc {
+  background-color: #fff;
+  height: 594px;
+  padding-top: 10px;
+}
+
+.ppc h2 {
+  margin-bottom: 30px;
+}
+
+.team {
+  background-color: #eee;
+  height: 835px;
+  padding-top: 10px;
+}
+
+.team-members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.member {
+  height: 283px;
+  width: 350px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.member img {
+  width: 168px;
+  display: block;
+  height: 168px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.member h4 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #007765;
+  margin: 13px 0 4px 0;
+}
+
+.member p {
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 21px;
+  margin: 0;
+}
+
+.ppc-logo {
+  background-image: url("images/PPCLogo.png");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  width: 115px;
+  height: 115px;
+  float: left;
+  margin-right: 50px;
+}
+
+.anchor {
+  position: relative;
+  top: -84px;
+}
